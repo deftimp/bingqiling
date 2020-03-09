@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="zh">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+		<script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/comm.css" />
+		<title>首页</title>
+	</head>
+	<body>
+		<div class="navbar bg-white navbar-dark navbar-expand-lg">
+			<!-- 1.不隐藏的菜单项 -->
+			<a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+			<!-- 2.在小屏下显示，大屏隐藏的按钮(折叠部分的触发按钮) -->
+			<button data-toggle="collapse" data-target="#content" class="navbar-toggler">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<!-- 3.在大屏横向显示，在小屏纵向显示的导航菜单 -->
+			<div id="content" class="collapse navbar-collapse justify-content-end">
+				<ul class="navbar-nav">
+					<li class="nav-item"><a class="nav-link" href="">首页</a></li>
+					<li class="nav-item"><a class="nav-link" href="">菜单口味</a></li>
+					<li class="nav-item"><a class="nav-link" href="">关于我们</a></li>
+					<li class="nav-item"><a class="nav-link" href="">预定活动</a></li>
+					<li class="nav-item"><a class="nav-link" href="">联系我们</a></li>
+				</ul>
+			</div>
+		</div>
+		<!-- banner轮播 -->
+		<div id="demo" class="carousel slide banner" data-ride="carousel">
+
+			<!-- 指示符 -->
+			<ul class="carousel-indicators">
+				<li data-target="#demo" data-slide-to="0" class="active"></li>
+				<li data-target="#demo" data-slide-to="1"></li>
+				<li data-target="#demo" data-slide-to="2"></li>
+			</ul>
+
+			<!-- 轮播图片 -->
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="img/banner.png">
+					<div class="carousel-caption">
+						<a href="" class="more">MORE</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/banner2.png">
+					<div class="carousel-caption">
+						<a href="" class="more">MORE</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="img/banner.png">
+					<div class="carousel-caption">
+						<a href="" class="more">MORE</a>
+					</div>
+				</div>
+			</div>
+
+			<!-- 左右切换按钮 -->
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+			</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+
+		</div>
+		<!-- banner轮播-end -->
+		<div class="container-fluid ">
+			<div class="row no-gutters">
+				<div class="col-lg-6">
+					<div class="pic"><img src="img/p1.png"></div>
+				</div>
+				<div class="col-lg-6 bh">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-8">
+						<div class="txt">
+							<h3>我们的口味</h3>
+							<p>OUR FLAVORS</p>
+							<div class="desc mb-5">
+								<p>并不是每个人都喜爱我们所有的口味，但是每种口味都是某些人的最爱。</p>
+								<p>我们还会通过对多样性口味选择的宣传，告诉大家推荐我们公司产品的原因，香草并不是惟一的口味。</p>
+								<p>作为一个业余美食家，中华美食是我的最爱，但是，我的味觉却有能力品味任何国土来的美味盛宴。</p>
+							</div>
+							<a href="" class="more1">MORE</a>
+						</div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<div class="col-12">
+					<img src="./img/p2.png">
+				</div>
+
+				<div class="col-lg-6 bh">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-8">
+						<div class="txt">
+							<h3>我们的口味</h3>
+							<p>OUR FLAVORS</p>
+							<div class="desc mb-5">
+								<p>并不是每个人都喜爱我们所有的口味，但是每种口味都是某些人的最爱。</p>
+								<p>我们还会通过对多样性口味选择的宣传，告诉大家推荐我们公司产品的原因，香草并不是惟一的口味。</p>
+								<p>作为一个业余美食家，中华美食是我的最爱，但是，我的味觉却有能力品味任何国土来的美味盛宴。</p>
+							</div>
+							<a href="" class="more1">MORE</a>
+						</div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="pic"><img src="img/p3.png"></div>
+				</div>
+				<div class="col-12">
+					<img src="./img/p4.png">
+				</div>
+				<div class="col-lg-6">
+					<div class="pic"><img src="img/p5.png"></div>
+				</div>
+				<div class="col-lg-6 bh">
+					<div class="col-lg-2"></div>
+					<div class="col-lg-8">
+						<div class="txt">
+							<h3>我们的口味</h3>
+							<p>OUR FLAVORS</p>
+							<div class="desc mb-5">
+								<p>并不是每个人都喜爱我们所有的口味，但是每种口味都是某些人的最爱。</p>
+								<p>我们还会通过对多样性口味选择的宣传，告诉大家推荐我们公司产品的原因，香草并不是惟一的口味。</p>
+								<p>作为一个业余美食家，中华美食是我的最爱，但是，我的味觉却有能力品味任何国土来的美味盛宴。</p>
+							</div>
+							<a href="" class="more1">MORE</a>
+						</div>
+						<div class="col-lg-2"></div>
+					</div>
+				</div>
+				<div class="col-12">
+					<img src="./img/p6.png">
+				</div>
+				<div class="tit2 col-12">
+					<h3>热卖产品</h3>
+				</div>
+			</div>
+			<!-- <div class="row no-gutters">
+				<ul class="col-12 vv">
+					<li class="col-lg-3">
+						<div class="pic"><img src="img/b1.jpg"></div>
+						<div class="desc">
+							<p>榛子和饼干</p>
+							<span>￥18.8</span>
+						</div>
+					</li>
+					<li class="col-lg-3">
+						<div class="pic"><img src="img/b2.jpg"></div>
+						<div class="desc">
+							<p>榛子和饼干</p>
+							<span>￥18.8</span>
+						</div>
+					</li>
+					<li class="col-lg-3">
+						<div class="pic"><img src="img/b3.png"></div>
+						<div class="desc">
+							<p>榛子和饼干</p>
+							<span>￥18.8</span>
+						</div>
+					</li>
+					<li class="col-lg-3">
+						<div class="pic"><img src="img/b4.jpg"></div>
+						<div class="desc">
+							<p>榛子和饼干</p>
+							<span>￥18.8</span>
+						</div>
+					</li>
+				</ul>
+			</div> -->
+			<div class="row no-gutters pro mt-4">
+				<div class="col-lg-3 p-3">
+					<div class="pro2">
+						<div class="pic mb-2"><img src="img/b1.jpg"></div>
+						<div class="desc">
+							<p>榛子和饼干</p>
+							<span>￥18.8</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 p-3">
+					<div class="pro2">
+						<div class="pic mb-2"><img src="img/b2.jpg"></div>
+						<div class="desc">
+							<p>黑莓冰糕</p>
+							<span>￥18.8</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 p-3">
+					<div class="pro2">
+						<div class="pic mb-2"><img src="img/b3.png"></div>
+						<div class="desc">
+							<p>开心果</p>
+							<span>￥18.8</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 p-3">
+					<div class="pro2">
+						<div class="pic mb-2"><img src="img/b4.jpg"></div>
+						<div class="desc">
+							<p>巧克力和海苔</p>
+							<span>￥18.8</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 底部 -->
+		<div class="footer">
+			<div class="container bg-dark nn">
+				<div class="row no-gutters">
+					<ul class="col-lg-3 list-unstyled">
+						<li>地址</li>
+						<li>特里弗朗索瓦大街500号。</li>
+						<li>旧金山,</li>
+						<li>CA 94158</li>
+					</ul>
+					<ul class="col-lg-3 list-unstyled">
+						<li>联系</li>
+					</ul>
+					<ul class="col-lg-3 list-unstyled">
+						<li>时间</li>
+					</ul>
+					<ul class="col-lg-3 list-unstyled">
+						<li>邮件</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 底部-end -->
+	</body>
+</html>

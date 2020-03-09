@@ -1,0 +1,77 @@
+/* 头部导航 */
+.navbar .navbar-nav .nav-link {
+	color: #909399;
+	font-size: 14px;
+	transition: .3s;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+	color: #b61616;
+}
+
+.navbar-dark .navbar-toggler {
+	color: rgba(0, 0, 0, 0.5);
+	border-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-dark .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+/* 头部导航-end */
+/* banner轮播 */
+.banner img {
+	width: 100%;
+	max-height: 571px;
+}
+
+.more {
+	background: rgba(0, 0, 0, 0);
+	border: 2px solid rgba(255, 255, 255, 1);
+	border-radius: 4px 4px 4px 4px;
+	padding: 12px 40px 12px 40px;
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+
+}
+
+.carousel-caption {
+	bottom: 9%;
+}
+
+/* banner轮播-end */
+.pro2 img {
+	max-width: 80%;
+	max-height: 80%;
+	transition: .3s;
+}
+
+.pro2 {
+	box-shadow: 0px 0px 15px 3px rgba(51, 51, 51, 0.15);
+	text-align: center;
+	padding: 20px;
+	cursor: pointer;
+}
+
+.pro2 span {
+	color: rgba(255, 0, 0, 1);
+	font-size: 14px;
+	line-height: 1.5;
+	display: block;
+}
+
+.pro2 p {
+	margin-bottom: 0;
+}
+
+.pro2 img:hover {
+	-webkit-transform: scale(1.08);
+	-moz-transform: scale(1.08);
+	-ms-transform: scale(1.08);
+	-o-transform: scale(1.08);
+	transform: scale(1.08);
+}
+/* 底部 */
+.footer{
+	background-color: #000;
+}
